@@ -1,7 +1,6 @@
 Introduction
-The food classification website is a Flask-based web application that allows users to classify food images using a deep learning model. 
+The food classification website is aapplication that allows users to classify food images using a deep learning model. 
 The application provides users with the ability to upload an image of food, and the model will predict the type of food in the image. 
-In this report, we will review the different aspects of the code of the food classification website and discuss its strengths and weaknesses.
 
 Overview of the Code
 The code of the food classification website is structured into several different Python modules, each of which performs a specific function.
