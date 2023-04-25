@@ -1,5 +1,6 @@
 # deep_learning
 laboratory lectures of deep learning in medical image analysis at AGH
+
 Topics of each .ipynb ->
 # Laboratory 1
 Basic Operations, Gradient, Binary Images, Morphology
