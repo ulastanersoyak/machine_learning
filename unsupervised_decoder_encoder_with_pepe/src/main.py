@@ -31,4 +31,3 @@ if __name__ == "__main__":
     state_dict = torch.load("autoencoder.pth")
     model.load_state_dict(state_dict)
     # evaluate(model,test_dataloader,loss_fn,device)
-    test_with_input(model,"huseyin_aktepe.png")
