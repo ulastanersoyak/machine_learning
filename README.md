@@ -2,14 +2,6 @@ Introduction
 The food classification website is aapplication that allows users to classify food images using a deep learning model. 
 The application provides users with the ability to upload an image of food, and the model will predict the type of food in the image. 
 
-Overview of the Code
-The code of the food classification website is structured into several different Python modules, each of which performs a specific function.
-The main module of the application is app.py, which contains the main Flask application and handles user requests. 
-The templates folder contains the HTML templates used by the application, while the static folder contains the static assets, such as images and CSS files.
-
-The core functionality of the application is provided by the predict.py module, which contains the deep learning model and the code to perform food image classification. 
-The predict.py module uses the Keras deep learning library to load the model weights and perform the classification.
-
 Strengths of the Code
 One of the strengths of the code is its clear and organized structure. 
 The use of separate modules for different functions makes the code more modular and easier to maintain. 
