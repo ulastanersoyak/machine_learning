@@ -6,4 +6,3 @@ so far i have covered:
     linear regression
     mnist digit classification
     multiclass classification
-    neuron from scratch
