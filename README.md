@@ -6,6 +6,7 @@ so far i have covered:
     linear regression
     mnist digit classification
     multiclass classification
+    cost function from scratch
     backward propagation from scratch
     gradient descent from scratch
     neural network fron scratch
