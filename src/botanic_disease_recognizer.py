@@ -18,7 +18,7 @@ class botanic_disease_recognizer(nn.Module):
             nn.LeakyReLU(inplace= True),
             nn.Dropout(0.2),
             nn.MaxPool2d(kernel_size=2,stride=2))
-        #(224 -3 + 2*1)/1 + 1 = 224/2 = 112
+        #(128 -3 + 2*1)/1 + 1 = 128/2 = 64
 
         self.convblock2 = nn.Sequential(
             nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1, stride=1),
@@ -26,7 +26,7 @@ class botanic_disease_recognizer(nn.Module):
             nn.LeakyReLU(inplace= True),
             nn.Dropout(0.2),
             nn.MaxPool2d(kernel_size=2,stride=2))
-        #(112 -3 + 2*1)/1 + 1 = 112/2 = 56
+        #(64 -3 + 2*1)/1 + 1 = 64/2 = 32
         
         self.convblock3 = nn.Sequential(
             nn.Conv2d(in_channels=64, out_channels=128, kernel_size=3, padding=1, stride=1),
@@ -34,7 +34,7 @@ class botanic_disease_recognizer(nn.Module):
             nn.LeakyReLU(inplace= True),
             nn.Dropout(0.2),
             nn.MaxPool2d(kernel_size=2,stride=2))
-        #(56 -3 + 2*1)/1 + 1 = 56/2 = 28
+        #(32 -3 + 2*1)/1 + 1 = 32/2 = 16
 
         # self.convblock4 = nn.Sequential(
         #     nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1, stride=1),
@@ -45,7 +45,7 @@ class botanic_disease_recognizer(nn.Module):
         # #(16 -3 + 2*1)/1 + 1 = 16/2 = 8
 
         self.fc1 = nn.Sequential(
-            nn.Linear(in_features=128*28*28,out_features=256),
+            nn.Linear(in_features=128*16*16,out_features=256),
             nn.BatchNorm1d(num_features=256),
             nn.LeakyReLU(),
             nn.Dropout(0.5))
