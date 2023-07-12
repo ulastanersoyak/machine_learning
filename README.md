@@ -1,1 +1,1 @@
-rebuilt the model I made in tensorflow from scratch using numpy
+simple mlp from scratch using numpy and math
