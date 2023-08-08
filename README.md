@@ -10,11 +10,11 @@ Clone the repository:
 ```
 git clone https://github.com/UlasTanErsoyak/multi_layer_perceptron_from_scratch
 ```
-Navigate to the directory containing main.py located at ./multi_layer_perceptron_from_scratch/implementing_neural_network_from_scratch/
+Navigate to the cloned directory:
 ```
-cd ./multi_layer_perceptron_from_scratch/implementing_neural_network_from_scratch/
+cd ../multilayer_perceptron_from_scratch
 ```
-Run the run.py file
+Run the nn.py file:
 ```
-python ./run.py
+python nn.py
 ```
