@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static "machineLearning/all-predictions.css" %}">
+<link rel="stylesheet" href="{% static "machineLearning/navbar.css" %}">
+{% endblock %}
+
+{% block title %}<title>Last Predictions</title>{% endblock  %}
+
+
+{% block body %}
+        {% block navbar %}  
+            {% include "machineLearning/includes/navbar.html" %}
+        {% endblock %}
+    <section id="all-predictions">
+        <ul>
+            {% for object in all_preds  %}
+                <img src="{{ object.image }}">
+                <h4>{{object.label|title}}
+            {% endfor %}
+        </ul>
+    </section>
+{% endblock body %}

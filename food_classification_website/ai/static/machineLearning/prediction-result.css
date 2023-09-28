@@ -1,0 +1,21 @@
+#prediction-result {
+    margin: 7rem auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 60rem;
+  }
+
+  #prediction-result img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    align-content: center;
+    border-radius: 50%;
+    display: block;
+}
+body {
+    background-color: gray;
+    }
