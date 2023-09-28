@@ -1,0 +1,1 @@
+machine learning, deep learning, embedded ai exercises, toy projects and all types of stuff. might serve educational purpose if you are brave and smart enough to traverse this spaghetti repository on your own. lol good luck
